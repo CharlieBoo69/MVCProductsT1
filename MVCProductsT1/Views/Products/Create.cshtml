@@ -1,24 +1,45 @@
 ﻿@model MVCProductsT1.Models.Product
 
-<h2>Create New Product</h2>
+<div class="container mt-4">
+    <h2>Create New Product</h2>
+    <hr />
 
-<form asp-action="Create" method="post">
-    <div class="form-group">
-        <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Price"></label>
-        <input asp-for="Price" class="form-control" />
-        <span asp-validation-for="Price" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Quantity"></label>
-        <input asp-for="Quantity" class="form-control" />
-        <span asp-validation-for="Quantity" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Create</button>
-    <a asp-action="Index" class="btn btn-secondary">Back</a>
-</form>
-   
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label asp-for="Name" class="font-weight-bold"></label>
+            <input asp-for="Name" class="form-control" placeholder="Enter product name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price" class="font-weight-bold"></label>
+            <input asp-for="Price" class="form-control" placeholder="Enter product price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Quantity" class="font-weight-bold"></label>
+            <input asp-for="Quantity" class="form-control" placeholder="Enter product quantity" />
+            <span asp-validation-for="Quantity" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Create</button>
+        </div>
+        <div class="form-group">
+            <a asp-action="Index" class="btn btn-secondary btn-block">Back</a>
+        </div>
+    </form>
+</div>
+
+<!-- Add some styling if you have a custom CSS file -->
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .btn-block {
+        margin-top: 10px;
+    }
+</style>

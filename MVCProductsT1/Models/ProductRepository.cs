@@ -5,7 +5,7 @@
         private static List<Product> _products = new List<Product>
         {
             new Product { Id = 1, Name = "Laptop", Price = 1200, Quantity = 10 },
-            new Product { Id = 2, Name = "Phone", Price = 800, Quantity = 15 }
+            new Product { Id = 2, Name = "Telefono", Price = 800, Quantity = 15 }
         };
 
         public static IEnumerable<Product> GetAllProducts() => _products;
