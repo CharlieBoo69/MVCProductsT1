@@ -71,5 +71,7 @@ namespace MVCProductsT1.Controllers
             ProductRepository.DeleteProduct(id);
             return RedirectToAction(nameof(Index));
         }
+
+
     }
 }
