@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVCProductsT1.Models;
 
 namespace MVCProductsT1.Controllers
 {
+    [Authorize]  // Proteger todas las acciones de este controlador
     public class ProductsController : Controller
     {
+
         // GET: Products
         public IActionResult Index()
         {
