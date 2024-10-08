@@ -29,4 +29,7 @@ Además, incluye un sistema de autenticación con cookies que requiere que los u
 Clona este repositorio en tu máquina local:
 
 ```bash
+https://github.com/CharlieBoo69/MVCProductsT1.git
 
+## Contacto
+carlos.larco.escobar@udla.edu.ec
