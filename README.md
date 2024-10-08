@@ -31,7 +31,7 @@ Clona este repositorio en tu máquina local:
 ```bash
 https://github.com/CharlieBoo69/MVCProductsT1.git
 ```
-##Información de contacto
-###Si tienes alguna pregunta o sugerencia sobre este proyecto, puedes contactarme a través de:
+## Información de contacto
+### Si tienes alguna pregunta o sugerencia sobre este proyecto, puedes contactarme a través de:
 
 Email: carlos.larco.escobar@udla.edu.ec
